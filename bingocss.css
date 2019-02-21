@@ -1,0 +1,163 @@
+[draggable="true"] {
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  /* Required to make elements draggable in old WebKit */
+  -khtml-user-drag: element;
+  -webkit-user-drag: element;
+  cursor: move;
+}
+
+.words.over {
+  border: 2px dashed #000000;
+}
+
+.words.moving {
+  opacity: '.4';
+}
+
+.warning {
+  letter-spacing: 2;
+  border: 3px solid red;
+  border-radius: 20px;
+  width: 70%;
+}
+
+.clear {
+  width: 50%;
+}
+
+.clear:hover {
+  border: 1px solid rgba(4, 178, 236, 0.747);
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+body {
+  background: #660066;
+  display: flex;
+  height: 100vh;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+.sourceCodebody {
+       background: #660066;
+  align-content: center;
+  align-items: center;
+     height: 150vh;
+
+}
+
+.sourceCodeh1 {
+      
+  
+  font-family: 'Lobster', cursive; font-size: 50pt;
+  font-weight: 600;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+     background: #737373;
+     float: top;
+     width: 20%;
+     
+     
+
+}
+
+.sourceCodep {
+     background: #bfbfbf;
+     width: 60%;
+     font-size: .7em;
+}
+
+h1 {
+  
+  font-family: 'Lobster', cursive; font-size: 50pt;
+  font-weight: 600;
+  margin: 0 auto;
+  text-align: center;
+  padding: 30px;
+  color: white;
+}
+
+h6 {
+    font-family: 'Lobster', cursive; font-size: 30pt;
+    font-weight: 600;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+    color: white;
+}
+
+.footer {
+    float: center;
+    font-family: 'Comfortaa', cursive;
+}
+
+p {
+  font-family: 'Lobster', cursive; font-size: 20pt;
+  font-weight: 600;
+  margin: 0 auto;
+  text-align: center;
+  padding: 30px;
+  color: white;
+}
+
+p a {
+  text-decoration: none;
+  color: #f1c40f;
+}
+
+#bingotable {
+  margin: 0 auto;
+  text-align: center;
+  width: 500px;
+  height: 500px;
+  border-collapse: collapse;
+  background: white;
+}
+
+th {
+    font-family: 'Lobster', cursive;
+    margin: 0 auto;
+    text-align: center;
+    text-emphasis: float;
+    border: 3px solid black;
+    width: 20%;
+}
+
+td {
+  float: up;
+  font-family: 'Comfortaa', cursive;
+  margin: 0 auto;
+  text-align: center;
+  text-emphasis: float;
+  border: 3px solid black;
+  width: 20%;
+}
+
+.orange {
+  background: red;
+  font: 3em sans-serif;
+}
+
+.reset {
+  float: right;
+  padding: 5px;
+  background: red;
+  border: solid black;
+}
+
+.reset:hover {
+  cursor: pointer;
+  outline: .5px solid rgba(4, 178, 236, 0.747);
+}
+
+.button {
+     padding-top: 10px;
+}
+td {
+  background: light gray;
+}
