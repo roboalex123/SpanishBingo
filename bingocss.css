@@ -32,6 +32,7 @@
   border: 1px solid rgba(4, 178, 236, 0.747);
   border-radius: 20px;
   cursor: pointer;
+  transition: .2s;
 }
 
 body {
@@ -153,6 +154,7 @@ td {
 .reset:hover {
   cursor: pointer;
   outline: .5px solid rgba(4, 178, 236, 0.747);
+  transition: .2s;
 }
 
 .button {
