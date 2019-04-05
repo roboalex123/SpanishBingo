@@ -1,5 +1,11 @@
 let b = document.querySelector("td")
 
+window.onload = addWordsClass();
+
+function addWordsClass() {
+  b.classList.add('words');
+}
+
 let cols = document.querySelectorAll('#words .words');
 [].forEach.call(cols, function(col) {
   col.addEventListener('dragstart', handleDragStart, false);

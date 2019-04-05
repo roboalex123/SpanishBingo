@@ -43,35 +43,6 @@ body {
   justify-content: center;
   align-items: center;
 }
-.sourceCodebody {
-       background: #660066;
-  align-content: center;
-  align-items: center;
-     height: 150vh;
-
-}
-
-.sourceCodeh1 {
-      
-  
-  font-family: 'Lobster', cursive; font-size: 50pt;
-  font-weight: 600;
-  margin: 0 auto;
-  text-align: center;
-  color: white;
-     background: #737373;
-     float: top;
-     width: 20%;
-     
-     
-
-}
-
-.sourceCodep {
-     background: #bfbfbf;
-     width: 60%;
-     font-size: .7em;
-}
 
 h1 {
   
@@ -159,7 +130,4 @@ td {
 
 .button {
      padding-top: 10px;
-}
-td {
-  background: light gray;
 }
